@@ -6,6 +6,7 @@ public class Airplane extends FlyingObject implements Enemy {
 	private int speed = 2; //移动的速度
 	/** 构造方法 */
 	public Airplane(){
+		String a="";
 		image = ShootGame.airplane; //图片
 		width = image.getWidth();   //宽
 		height = image.getHeight(); //高
